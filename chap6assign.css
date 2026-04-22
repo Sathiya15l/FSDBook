@@ -1,0 +1,61 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the card on the page */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Card container */
+.card {
+    width: 300px;
+    background-color: #d7e5ed;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Card image */
+.card_img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Card title */
+.card_h2{
+    margin: 15px 0 10px;
+    font-size: 20px;
+}
+
+/* Card description */
+.card p{
+    font-size: 14px;
+    color: #3d8e50;
+    margin-bottom: 15px;
+}
+
+/* Button / link */
+.card a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+.card a:hover {
+    background-color: #0056b3;
+}
