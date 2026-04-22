@@ -1,0 +1,45 @@
+
+body{
+    width: 1000px;
+    margin: auto;
+}
+.chap6_img{
+    height: 300px;
+}
+.wt{
+    width: 300px;
+}
+.space{
+    border: 0.5px solid red;
+    margin: 20px;
+    padding: 20px;
+}
+.bg_color{
+    background-color: bisque;
+}
+.borderRadius{
+    border-radius: 100%;
+    background-color: chartreuse;
+}
+.ht{
+    height: 150px;
+}
+#main_heading{
+    color: brown;
+}
+.card{
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+    padding: 1px;
+    margin: 2px;
+    align-items: center;
+    box-sizing: border-box;
+   background-color: darkseagreen;
+}
+.img_card{
+width: 100px;
+padding: 1px;
+border-radius: 50%;
+align-self: center;
+}
